@@ -26273,16 +26273,77 @@ try {
   var _react = require("react");
   var _reactDefault = _parcelHelpers.interopDefault(_react);
   var _jsxFileName = "/Users/akolyvongdala/Desktop/react-parcel/src/App.js";
+  const viewHeight = 500;
+  const viewWidth = 500;
   const App = () => {
     return (
-      /*#__PURE__*/_reactDefault.default.createElement("di", {
+      /*#__PURE__*/_reactDefault.default.createElement("svg", {
+        style: {
+          border: "1px solid black",
+          width: viewWidth,
+          height: viewHeight
+        },
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 4,
-          columnNumber: 12
+          lineNumber: 9,
+          columnNumber: 5
         }
-      }, "hello world from react")
+      }, /*#__PURE__*/_reactDefault.default.createElement("circle", {
+        cx: "10",
+        cy: "10",
+        r: "5",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 10,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 200,
+        y: 200,
+        width: "100",
+        height: "100",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 11,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 312,
+        y: 200,
+        width: "100",
+        height: "100",
+        fill: "red",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 12,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("line", {
+        x1: 20,
+        y1: viewHeight,
+        x2: 120,
+        y2: 100,
+        stroke: "black",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 13,
+          columnNumber: 9
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        x: "20",
+        y: "35",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 14,
+          columnNumber: 9
+        }
+      }, "something here"))
     );
   };
   _c = App;
