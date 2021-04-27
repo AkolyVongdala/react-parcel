@@ -20,6 +20,7 @@ const App = () => {
             <text x="20" y="35">
                 Price history of 100 randomly selected Pokemon cards
             </text>
+            <text> something from 04/27</text>
         </svg>
     ); // outer brace = js / inner brace = object
 };

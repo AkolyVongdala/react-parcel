@@ -26379,7 +26379,14 @@ try {
           lineNumber: 20,
           columnNumber: 13
         }
-      }, "Price history of 100 randomly selected Pokemon cards"))
+      }, "Price history of 100 randomly selected Pokemon cards"), /*#__PURE__*/_reactDefault.default.createElement("text", {
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23,
+          columnNumber: 13
+        }
+      }, " something from 04/27"))
     );
   };
   _c = App;
