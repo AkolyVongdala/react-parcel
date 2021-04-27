@@ -1069,7 +1069,7 @@ try {
   window.$RefreshSig$ = prevRefreshSig;
 }
 
-},{"react":"3b2NM","react-dom":"2sg1U","./App":"6Pm2X","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y"}],"3b2NM":[function(require,module,exports) {
+},{"react":"3b2NM","react-dom":"2sg1U","./App":"6Pm2X","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","../node_modules/@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"4Jj4f"}],"3b2NM":[function(require,module,exports) {
 "use strict";
 if ("development" === 'production') {
   module.exports = require('./cjs/react.production.min.js');
@@ -26279,7 +26279,7 @@ try {
     return (
       /*#__PURE__*/_reactDefault.default.createElement("svg", {
         style: {
-          border: "1px solid black",
+          border: "1px solid lightgrey",
           width: viewWidth,
           height: viewHeight
         },
@@ -26287,52 +26287,88 @@ try {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 9,
-          columnNumber: 5
+          columnNumber: 9
         }
       }, /*#__PURE__*/_reactDefault.default.createElement("circle", {
-        cx: "10",
-        cy: "10",
+        cx: 20,
+        cy: 20,
         r: "5",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 10,
-          columnNumber: 9
+          lineNumber: 13,
+          columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
         x: 200,
         y: 200,
-        width: "100",
-        height: "100",
+        width: 10,
+        height: 10,
+        fill: "rgb(230, 230, 230)",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 11,
-          columnNumber: 9
+          lineNumber: 14,
+          columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
-        x: 312,
+        x: 212,
         y: 200,
-        width: "100",
-        height: "100",
-        fill: "red",
+        width: 10,
+        height: 10,
+        fill: "rgb(230, 230, 230)",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 12,
-          columnNumber: 9
+          lineNumber: 15,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 224,
+        y: 200,
+        width: 10,
+        height: 10,
+        fill: "rgb(230, 230, 230)",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 16,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 236,
+        y: 200,
+        width: 10,
+        height: 10,
+        fill: "rgb(230, 230, 230)",
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 17,
+          columnNumber: 13
+        }
+      }), /*#__PURE__*/_reactDefault.default.createElement("rect", {
+        x: 248,
+        y: 200,
+        width: 10,
+        height: 10,
+        __self: undefined,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 18,
+          columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("line", {
         x1: 20,
-        y1: viewHeight,
-        x2: 120,
+        y1: viewHeight - 20,
+        x2: 150,
         y2: 100,
         stroke: "black",
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 13,
-          columnNumber: 9
+          lineNumber: 19,
+          columnNumber: 13
         }
       }), /*#__PURE__*/_reactDefault.default.createElement("text", {
         x: "20",
@@ -26340,10 +26376,10 @@ try {
         __self: undefined,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 14,
-          columnNumber: 9
+          lineNumber: 20,
+          columnNumber: 13
         }
-      }, "something here"))
+      }, "Price history of 100 randomly selected Pokemon cards"))
     );
   };
   _c = App;
